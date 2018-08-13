@@ -40,8 +40,8 @@
     for (int i = 0; i < 9; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.userInteractionEnabled = NO;
-        [btn setImage:[UIImage imageNamed:@"gesture_indicator_normal"] forState:UIControlStateNormal];
-        [btn setImage:[UIImage imageNamed:@"gesture_indicator_selected"] forState:UIControlStateSelected];
+        [btn setImage:[UIImage imageNamed:@"灰色椭圆"] forState:UIControlStateNormal];
+        [btn setImage:[UIImage imageNamed:@"橙色椭圆"] forState:UIControlStateSelected];
         [self addSubview:btn];
         [self.btns addObject:btn];
     }

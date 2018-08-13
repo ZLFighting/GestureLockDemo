@@ -23,6 +23,9 @@
 		782C0EF91E94DB1F00BAE68F /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782C0EF41E94DB1F00BAE68F /* gesture_indicator_selected@2x.png */; };
 		782C0EFA1E94DB1F00BAE68F /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782C0EF51E94DB1F00BAE68F /* gesture_normal@2x.png */; };
 		782C0EFB1E94DB1F00BAE68F /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782C0EF61E94DB1F00BAE68F /* gesture_selected@2x.png */; };
+		7881D5F921212DCE007D890B /* 灰色椭圆.png in Resources */ = {isa = PBXBuildFile; fileRef = 7881D5F521212DCD007D890B /* 灰色椭圆.png */; };
+		7881D5FB21212DCE007D890B /* 红色椭圆.png in Resources */ = {isa = PBXBuildFile; fileRef = 7881D5F721212DCD007D890B /* 红色椭圆.png */; };
+		7881D5FC21212DCE007D890B /* 橙色椭圆.png in Resources */ = {isa = PBXBuildFile; fileRef = 7881D5F821212DCD007D890B /* 橙色椭圆.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		782C0EF41E94DB1F00BAE68F /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
 		782C0EF51E94DB1F00BAE68F /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
 		782C0EF61E94DB1F00BAE68F /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
+		7881D5F521212DCD007D890B /* 灰色椭圆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰色椭圆.png"; sourceTree = "<group>"; };
+		7881D5F721212DCD007D890B /* 红色椭圆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红色椭圆.png"; sourceTree = "<group>"; };
+		7881D5F821212DCD007D890B /* 橙色椭圆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橙色椭圆.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +188,9 @@
 				782C0EF41E94DB1F00BAE68F /* gesture_indicator_selected@2x.png */,
 				782C0EF51E94DB1F00BAE68F /* gesture_normal@2x.png */,
 				782C0EF61E94DB1F00BAE68F /* gesture_selected@2x.png */,
+				7881D5F821212DCD007D890B /* 橙色椭圆.png */,
+				7881D5F721212DCD007D890B /* 红色椭圆.png */,
+				7881D5F521212DCD007D890B /* 灰色椭圆.png */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -253,7 +262,7 @@
 				TargetAttributes = {
 					782C0EA41E94800900BAE68F = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7734U6Q8V5;
+						DevelopmentTeam = J2D58K6B4Q;
 						ProvisioningStyle = Automatic;
 					};
 					782C0EBD1E94800A00BAE68F = {
@@ -295,14 +304,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7881D5FB21212DCE007D890B /* 红色椭圆.png in Resources */,
 				782C0EB81E94800900BAE68F /* LaunchScreen.storyboard in Resources */,
 				782C0EF81E94DB1F00BAE68F /* gesture_indicator_normal@2x.png in Resources */,
 				782C0EF71E94DB1F00BAE68F /* gesture_headIcon@2x.png in Resources */,
+				7881D5FC21212DCE007D890B /* 橙色椭圆.png in Resources */,
 				782C0EFB1E94DB1F00BAE68F /* gesture_selected@2x.png in Resources */,
 				782C0EF91E94DB1F00BAE68F /* gesture_indicator_selected@2x.png in Resources */,
 				782C0EB51E94800900BAE68F /* Assets.xcassets in Resources */,
 				782C0EFA1E94DB1F00BAE68F /* gesture_normal@2x.png in Resources */,
 				782C0EB31E94800900BAE68F /* Main.storyboard in Resources */,
+				7881D5F921212DCE007D890B /* 灰色椭圆.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				DEVELOPMENT_TEAM = J2D58K6B4Q;
 				INFOPLIST_FILE = GestureLockDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.GestureLockDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.GestureLockDemo5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -494,11 +506,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				DEVELOPMENT_TEAM = J2D58K6B4Q;
 				INFOPLIST_FILE = GestureLockDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.GestureLockDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.GestureLockDemo5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
